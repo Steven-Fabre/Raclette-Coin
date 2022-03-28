@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AIAA,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,KAAK,EAAE,IAAI;CACZ;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "style.scss",
+        "_variables.scss",
+        "_mixins.scss",
+        "_general.scss",
+        "components/Header.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
