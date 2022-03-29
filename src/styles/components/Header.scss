@@ -1,9 +1,35 @@
 header {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  width: 90%;
+  height: $headerHeight;
+  padding: 0 5%;
+  flex: none;
 }
 
 .logo {
-  width: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+
+  &__img {
+    width: calc($headerHeight - 10px);
+    height: calc($headerHeight - 10px);
+    margin: 0 20px;
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  a {
+    margin-right: 1em;
+    color: white;
+  }
 }

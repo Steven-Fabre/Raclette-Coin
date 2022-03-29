@@ -1,0 +1,12 @@
+.bigraclette {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 10%;
+  height: 100%;
+  overflow: hidden;
+}
+.bigraclette--svg {
+  display: inline-block;
+  height: 100%;
+}/*# sourceMappingURL=BigRaclette.css.map */

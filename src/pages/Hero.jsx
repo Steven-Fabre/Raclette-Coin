@@ -1,5 +1,5 @@
 import React from "react";
-import bigraclette from "../assets/bigraclettesvg.svg";
+import bigraclette from "../assets/bigspatule.svg";
 
 export default function Hero() {
   return (
@@ -7,7 +7,6 @@ export default function Hero() {
       <p className="introduction">
         Le Raclette Coin est la monnaie coulante décentralisée, open source, qui se partage entre amateurs de fromages
       </p>
-      <img className="bigraclette" src={bigraclette} alt="La monnaie la plus coulante" />
     </section>
   );
 }

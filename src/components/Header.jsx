@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../assets/raclettecoinombre2.png";
+import logo from "../assets/raclettecoinombre.png";
 
 export default function Header() {
   return (
     <header>
-      <a href="/" alt="Retour en haut de page">
-        <img className="logo" src={logo} alt="logo" />
-        <h1 className="title">RACLETTE COIN</h1>
+      <a className="logo" href="/" alt="Retour en haut de page">
+        <img className="logo__img" src={logo} alt="logo" />
+        <h1 className="logo__title">RACLETTE COIN</h1>
       </a>
 
       <nav>

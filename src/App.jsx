@@ -1,20 +1,24 @@
+import React from "react";
+import BigRaclette from "./components/BigRaclette";
 import Header from "./components/Header";
 import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
-import Home from "./pages/Home";
+import Home from "./pages/Hero";
 import Presentation from "./pages/Presentation";
 import Product from "./pages/Product";
+import "./styles/style.scss";
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
+      <BigRaclette />
       <Header />
       <Home />
       <Presentation />
       <Product />
       <Faq />
       <Contact />
-    </div>
+    </React.Fragment>
   );
 }
 
