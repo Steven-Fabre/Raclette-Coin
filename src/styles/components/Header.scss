@@ -15,6 +15,10 @@ header {
   align-items: center;
   color: white;
 
+  &__title {
+    font-weight: normal;
+  }
+
   &__img {
     width: calc($headerHeight - 10px);
     height: calc($headerHeight - 10px);

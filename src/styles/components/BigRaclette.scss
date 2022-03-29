@@ -2,12 +2,13 @@
   z-index: -1;
   position: absolute;
   top: 0;
-  right: 10%;
+  right: 5%;
   height: 100%;
+  width: 50%;
   overflow: hidden;
 
   &--svg {
     display: inline-block;
-    height: 100%;
+    width: 100%;
   }
 }

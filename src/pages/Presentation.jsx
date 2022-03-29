@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Presentation() {
   return (
-    <section className="presentation">
+    <section id="presentation" className="presentation">
       <div className="presentation__simple">
         <h2>Simple</h2>
         <p>

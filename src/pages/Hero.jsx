@@ -1,9 +1,8 @@
 import React from "react";
-import bigraclette from "../assets/bigspatule.svg";
 
 export default function Hero() {
   return (
-    <section className="home">
+    <section id="hero" className="home">
       <p className="introduction">
         Le Raclette Coin est la monnaie coulante décentralisée, open source, qui se partage entre amateurs de fromages
       </p>

@@ -2,8 +2,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -24,14 +23,20 @@ a {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex: none;
   width: 90%;
   height: 100vh;
-  padding: $headerHeight 5% 0 5%;
+  padding: 0 5%;
   scroll-snap-align: start;
+}
+
+span {
+  font-weight: bold;
 }

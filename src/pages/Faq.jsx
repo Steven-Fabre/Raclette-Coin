@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Faq() {
   return (
-    <section className="faq">
+    <section id="faq" className="faq">
       <div className="faq__what">
         <h4>Qu’est-ce-que le Raclette Coin ?</h4>
         <p>
@@ -11,11 +11,8 @@ export default function Faq() {
         </p>
       </div>
       <div className="faq__why">
-        <h4>POURQUOI Y A-T-IL UNE RACLETTE SUR CETTE MONNAIE ?</h4>
-        <p>
-          La Raclette est notre amusante et sympathique mascotte ! La Raclette est un plat populaire dans le pays
-          Savoyard qui représente la convivialité et le partage.
-        </p>
+        <h4>Pourquoi la raclette ?</h4>
+        <p>La Raclette est un plat populaire dans le pays Savoyard qui représente la convivialité et le partage.</p>
       </div>
       <div className="faq__source">
         <h4>D’où viennent ces chiffres ?</h4>
@@ -29,6 +26,16 @@ export default function Faq() {
         >
           Source
         </a>
+        <p>
+        Ce projet est propulsé par Steven Fabre, Développeur Front-End, qui souhaite redonner ses lettres de noblesse à
+        la Raclette
+      </p>
+      <a href="https://github.com/Steven-Fabre" alt="Accès au Github">
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/steven-fabre-35923487/" alt="Accès à mon profil LinkedIn">
+        LinkedIn
+      </a>
       </div>
     </section>
   );

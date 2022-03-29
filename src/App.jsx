@@ -1,7 +1,6 @@
 import React from "react";
 import BigRaclette from "./components/BigRaclette";
 import Header from "./components/Header";
-import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
 import Home from "./pages/Hero";
 import Presentation from "./pages/Presentation";
@@ -17,7 +16,6 @@ function App() {
       <Presentation />
       <Product />
       <Faq />
-      <Contact />
     </React.Fragment>
   );
 }
