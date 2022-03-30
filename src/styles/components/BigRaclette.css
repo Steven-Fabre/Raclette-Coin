@@ -1,12 +1,48 @@
 .bigraclette {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 10%;
-  height: 100%;
-  overflow: hidden;
+  z-index: 0;
+  position: relative;
+  height: 500%;
+  width: 45%;
+  margin-left: 55%;
 }
-.bigraclette--svg {
-  display: inline-block;
-  height: 100%;
+.bigraclette--cheesy {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 35vw;
+  right: 14.7vw;
+}
+.bigraclette--spatule {
+  position: absolute;
+  width: 40vw;
+  right: 12vw;
+}
+.bigraclette--coulant, .bigraclette--sticky {
+  width: 3.2vw;
+}
+.bigraclette--coulant {
+  position: relative;
+  min-height: 30px;
+}
+.bigraclette--sticky {
+  position: relative;
+  top: -5px;
+}
+.bigraclette--assiette, .bigraclette--downcheese {
+  position: fixed;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.bigraclette--downcheese {
+  max-height: 0;
+  overflow: hidden;
+  top: 35vw;
+  right: 12vw;
+  width: 15vw;
+  z-index: 1;
+}
+.bigraclette--assiette {
+  width: 60vw;
+  z-index: -1;
+  top: 300vw;
+  right: -7vw;
 }/*# sourceMappingURL=BigRaclette.css.map */
